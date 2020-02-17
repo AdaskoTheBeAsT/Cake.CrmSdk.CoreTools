@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A0DC02A-3637-4B8C-901F-66F6F131F8D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.CrmSdk.CoreTools", "src\Cake.CrmSdk.CoreTools\Cake.CrmSdk.CoreTools.csproj", "{C455BD37-7B09-47EC-BE0B-EF507C871BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".props", ".props", "{C81579F3-28F8-4045-8630-4FA74C920264}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		AdaskoTheBeAsT.ruleset = AdaskoTheBeAsT.ruleset
+		Cake.CrmSdk.CoreTools.sln.DotSettings = Cake.CrmSdk.CoreTools.sln.DotSettings
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+		SecurityCodeScan.config.yml = SecurityCodeScan.config.yml
+		Settings.StyleCop = Settings.StyleCop
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB98203D-2014-426B-9BFD-363C667E68FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cake.CrmSdk.CoreTools.Test", "test\Cake.CrmSdk.CoreTools.Test\Cake.CrmSdk.CoreTools.Test.csproj", "{35EE2494-5114-4BFE-BA0D-DFCEA69452BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".props", ".props", "{7CBB60DE-9A87-4EE6-B21D-A1F5A5D25B38}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C455BD37-7B09-47EC-BE0B-EF507C871BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C455BD37-7B09-47EC-BE0B-EF507C871BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C455BD37-7B09-47EC-BE0B-EF507C871BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C455BD37-7B09-47EC-BE0B-EF507C871BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EE2494-5114-4BFE-BA0D-DFCEA69452BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EE2494-5114-4BFE-BA0D-DFCEA69452BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EE2494-5114-4BFE-BA0D-DFCEA69452BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EE2494-5114-4BFE-BA0D-DFCEA69452BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C455BD37-7B09-47EC-BE0B-EF507C871BEE} = {9A0DC02A-3637-4B8C-901F-66F6F131F8D1}
+		{35EE2494-5114-4BFE-BA0D-DFCEA69452BB} = {BB98203D-2014-426B-9BFD-363C667E68FE}
+		{7CBB60DE-9A87-4EE6-B21D-A1F5A5D25B38} = {BB98203D-2014-426B-9BFD-363C667E68FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD6DAA11-5238-4FA0-ABC5-C0610B71861F}
+	EndGlobalSection
+EndGlobal
